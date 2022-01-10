@@ -14,6 +14,7 @@ body {
 .app-wrap {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     min-height: 100vh;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6));
 }
@@ -38,6 +39,7 @@ header input {
     color: #313131;
     font-size: 20px;
     font-weight: 300;
+    text-align: center;
     transition: 0.3s ease-out;
 }
 
@@ -46,7 +48,6 @@ header input:focus {
 }
 
 main {
-    flex: 1 1 100%;
     display: flex;
     padding: 25px 25px 50px;
     flex-direction: column;
